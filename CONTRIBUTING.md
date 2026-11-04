@@ -16,9 +16,7 @@ For example:
 - **[2024]** 📄 [An LLM Compiler for Parallel Function Calling](https://proceedings.mlr.press/v235/kim24y.html) · ICML · [💻 Code](https://github.com/SqueezeAILab/LLMCompiler)
 ```
 
-List each work once under its main topic. Use the published version when available and label preprints clearly. Include one sentence in the issue or pull request explaining the resource's relevance to the subsection.
-
-Update the collection total, topic count, and yearly count when adding a new work. The focused pages under `docs/` can also link to the paper in related topics.
+List each work once under its main topic. Use the published version when available and label preprints clearly.
 
 ## ✏️ Corrections and Citation
 

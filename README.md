@@ -59,8 +59,7 @@
 <a id="news"></a>
 ## 🗞️ News
 
-- 🆕 **2026-11-04** — Added [Towards a Science of Scaling Agent Systems](https://arxiv.org/abs/2512.08296); the homepage now lists **241 works**.
-- 🚀 **2026-11-04** — Companion repository released with **240 works**, the full classified paper list, and the survey's six-dimensional taxonomy.
+- 🚀 **2026-11-04** — Companion repository released with the classified paper list and the survey's six-dimensional taxonomy.
 - 📖 **2026-10-27** — Our survey was published in **[Artificial Intelligence Review](https://doi.org/10.1007/s10462-026-11700-9)**.
 
 <a id="introduction"></a>
@@ -77,14 +76,14 @@ This repository accompanies our survey and organizes the literature around **inf
 
 Six connected dimensions organize the survey. The sections below follow the survey taxonomy and include the complete paper list.
 
-| Research dimension and catalog | Survey | Core question | Representative starting points |
-| --- | --- | --- | --- |
-| [🧠 Inference-time planning and execution](#papers-inference) | §3 | How are dependent calls planned, coordinated, and repaired? | [ReAct](https://openreview.net/forum?id=WE_vluYUL-X) · [HuggingGPT](https://doi.org/10.52202/075280-1657) · [Reflexion](https://doi.org/10.52202/075280-0377) |
-| [🎓 Training and trajectory construction](#papers-training) | §4 | How are executable tool-use behaviors acquired? | [ToolLLM](https://proceedings.iclr.cc/paper_files/paper/2024/file/28e50ee5b72e90b50e7196fde8ea260e-Paper-Conference.pdf) · [APIGen](https://doi.org/10.52202/079017-1725) · [ToolRL](https://doi.org/10.52202/085713-3524) |
-| [🛡️ Safety and execution control](#papers-safety) | §5 | How are actions checked and shared state protected? | [SagaLLM](https://doi.org/10.14778/3750601.3750611) · [CRITIC](https://openreview.net/forum?id=Sx038qxjek) · [AgentDojo](https://doi.org/10.52202/079017-2636) |
-| [⚡ Efficiency](#papers-efficiency) | §6 | How can latency and cost be reduced while preserving dependencies? | [LLMCompiler](https://proceedings.mlr.press/v235/kim24y.html) · [ReWOO](https://arxiv.org/abs/2305.18323) · [FrugalGPT](https://openreview.net/forum?id=cSimKw5p6R) |
-| [🌍 Capability completeness](#papers-capability-completeness) | §7 | What happens when tools, information, or reusable skills are missing? | [LATM](https://proceedings.iclr.cc/paper_files/paper/2024/hash/ed91353f700d113e5d848c7e04a858b0-Abstract-Conference.html) · [CREATOR](https://doi.org/10.18653/v1/2023.findings-emnlp.462) · [Voyager](https://openreview.net/forum?id=ehfRiF0R3a) |
-| [🧪 Benchmarks and evaluation](#papers-benchmarks) | §8 | What does successful multi-tool execution require, and how is it measured? | [ToolHop](https://doi.org/10.18653/v1/2025.acl-long.150) · [ToolSandbox](https://doi.org/10.18653/v1/2025.findings-naacl.65) · [AppWorld](https://doi.org/10.18653/v1/2024.acl-long.850) |
+| Research dimension and catalog | Survey | Core question |
+| --- | --- | --- |
+| [🧠 Inference-time planning and execution](#papers-inference) | §3 | How are dependent calls planned, coordinated, and repaired? |
+| [🎓 Training and trajectory construction](#papers-training) | §4 | How are executable tool-use behaviors acquired? |
+| [🛡️ Safety and execution control](#papers-safety) | §5 | How are actions checked and shared state protected? |
+| [⚡ Efficiency](#papers-efficiency) | §6 | How can latency and cost be reduced while preserving dependencies? |
+| [🌍 Capability completeness](#papers-capability-completeness) | §7 | What happens when tools, information, or reusable skills are missing? |
+| [🧪 Benchmarks and evaluation](#papers-benchmarks) | §8 | What does successful multi-tool execution require, and how is it measured? |
 
 <details>
 <summary><b>🔎 Explore the taxonomy graph</b></summary>
@@ -122,8 +121,6 @@ flowchart LR
   <a href="#taxonomy"><img alt="Research dimensions: 6" src="https://img.shields.io/badge/Research%20dimensions-6-8b5cf6?style=for-the-badge" /></a>
   <a href="#browse-the-papers"><img alt="Topic sections: 8" src="https://img.shields.io/badge/Topic%20sections-8-0d9488?style=for-the-badge" /></a>
 </p>
-
-**241 works** are listed below: the survey's **240-work published corpus** and **one additional paper**. The original corpus has a literature cutoff of **26 July 2026** and is available as a [CSV](data/survey-corpus.csv). Each work appears once in the homepage list under its main research topic.
 
 <details>
 <summary><b>📅 Works by publication year</b></summary>
@@ -570,13 +567,55 @@ flowchart LR
 
 | Benchmark | Evaluation focus | Resources |
 | --- | --- | --- |
-| ToolHop | Multi-hop tool dependencies | [📄 Paper](https://doi.org/10.18653/v1/2025.acl-long.150) |
-| Tool Decathlon | Long-horizon execution across applications | [📄 Paper](https://openreview.net/forum?id=z53s5p0qhf) |
-| ToolSandbox | Stateful execution and conversational interaction | [📄 Paper](https://doi.org/10.18653/v1/2025.findings-naacl.65) · [💻 Code](https://github.com/apple-aiml-research/ToolSandbox) |
-| AppWorld | Persistent state across connected applications | [📄 Paper](https://doi.org/10.18653/v1/2024.acl-long.850) · [💻 Code](https://github.com/StonyBrookNLP/appworld) |
-| τ²-bench | Shared control between an agent and a simulated user | [📄 Paper](https://openreview.net/forum?id=OC2z7iSQKa) · [💻 Code](https://github.com/sierra-research/tau2-bench) |
-| OSWorld | Execution in desktop applications | [📄 Paper](https://doi.org/10.52202/079017-1650) · [💻 Code](https://github.com/xlang-ai/OSWorld) |
 | AgentDojo | Task utility and prompt-injection resistance | [📄 Paper](https://doi.org/10.52202/079017-2636) · [💻 Code](https://github.com/ethz-spylab/agentdojo) |
+| AgentLongBench | Controllable long-context evaluation through environment rollouts | [📄 Paper](https://arxiv.org/abs/2601.20730) |
+| AndroidWorld | Execution in Android applications | [📄 Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/01a83bc2f2732a58e6aa731e659e7101-Paper-Conference.pdf) |
+| API-Bank | Tool-augmented task execution | [📄 Paper](https://doi.org/10.18653/v1/2023.emnlp-main.187) |
+| AppWorld | Persistent state across connected applications | [📄 Paper](https://doi.org/10.18653/v1/2024.acl-long.850) · [💻 Code](https://github.com/StonyBrookNLP/appworld) |
+| ASTRA-bench | Tool-use reasoning and planning with personal context | [📄 Paper](https://arxiv.org/abs/2603.01357) |
+| BrowserGym | Web-agent environments and evaluation | [📄 Paper](https://openreview.net/forum?id=5298fKGmv3) |
+| C-World | Configurable computer-use agent environments | [📄 Paper](https://doi.org/10.18653/v1/2026.acl-long.2001) |
+| ColorBench | Complex, long-horizon mobile tasks | [📄 Paper](https://doi.org/10.1145/3774904.3792215) |
+| COMPASS | Constrained optimization with tools | [📄 Paper](https://arxiv.org/abs/2510.07043) |
+| ComplexFuncBench | Multi-step, constrained function calling in long contexts | [📄 Paper](https://arxiv.org/abs/2501.10132) |
+| CostBench | Cost-optimal multi-turn planning and adaptation | [📄 Paper](https://doi.org/10.18653/v1/2026.acl-long.584) |
+| CRITICTOOL | Self-critique in tool-calling error scenarios | [📄 Paper](https://doi.org/10.18653/v1/2025.emnlp-main.1355) |
+| DeepPlanning | Long-horizon planning with verifiable constraints | [📄 Paper](https://doi.org/10.18653/v1/2026.acl-long.335) |
+| DICE-BENCH | Tool use in multi-round, multi-party dialogues | [📄 Paper](https://doi.org/10.18653/v1/2025.findings-acl.1375) |
+| ELT-Bench | End-to-end execution of ELT pipelines | [📄 Paper](https://doi.org/10.14778/3773749.3773750) |
+| FuncBenchGen | Controllable, contamination-free multi-step function calling | [📄 Paper](https://openreview.net/forum?id=UKYCJixSFt) |
+| GTA | General tool-agent evaluation | [📄 Paper](https://doi.org/10.52202/079017-2412) |
+| HammerBench | Fine-grained function calling for mobile assistants | [📄 Paper](https://doi.org/10.18653/v1/2025.findings-acl.175) |
+| m&m's | Multi-step, multimodal tool composition | [📄 Paper](https://doi.org/10.1007/978-3-031-72684-2_2) |
+| MetaTool | Whether to use a tool and which tool to select | [📄 Paper](https://proceedings.iclr.cc/paper_files/paper/2024/hash/bc12914d66b41b6bfc2d3a5decdb498b-Abstract-Conference.html) |
+| Mobile-Bench | Tool-mediated tasks in mobile applications | [📄 Paper](https://doi.org/10.18653/v1/2024.acl-long.478) |
+| MTU-Bench | Multi-granularity tool-use evaluation | [📄 Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/4d13b2d99519c5415661dad44ab7edcd-Paper-Conference.pdf) |
+| M³-Bench | Multimodal, multi-hop, multi-threaded tool use | [📄 Paper](https://arxiv.org/abs/2511.17729) |
+| NESTFUL | Nested sequences of API calls | [📄 Paper](https://doi.org/10.18653/v1/2025.emnlp-main.1702) |
+| OdysseyBench | Long-horizon office-application workflows | [📄 Paper](https://arxiv.org/abs/2508.09124) |
+| OSWorld | Open-ended tasks in real computer environments | [📄 Paper](https://doi.org/10.52202/079017-1650) · [💻 Code](https://github.com/xlang-ai/OSWorld) |
+| RealWebAssist | Long-horizon web assistance with real users | [📄 Paper](https://doi.org/10.1609/aaai.v40i40.40742) |
+| RoTBench | Robustness under tool-use perturbations | [📄 Paper](https://doi.org/10.18653/v1/2024.emnlp-main.19) |
+| Seal-Tools | Tool-learning data and detailed tool-use evaluation | [📄 Paper](https://doi.org/10.1007/978-981-97-9434-8_29) |
+| ShortcutsBench | Real-world API-based workflows | [📄 Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/c16a99558b0b4f6b10966ca9bdb98ade-Paper-Conference.pdf) |
+| StableToolBench | Stable large-scale evaluation of tool learning | [📄 Paper](https://doi.org/10.18653/v1/2024.findings-acl.664) |
+| T1 | Conversational, multi-turn agentic planning | [📄 Paper](https://doi.org/10.52202/085713-3479) |
+| TaskBench | Task automation and tool dependency structures | [📄 Paper](https://doi.org/10.52202/079017-0148) |
+| TheAgentCompany | Consequential workplace tasks across tools | [📄 Paper](https://doi.org/10.52202/085713-0315) |
+| Tool Decathlon | Diverse, realistic, long-horizon task execution | [📄 Paper](https://openreview.net/forum?id=z53s5p0qhf) |
+| ToolBench (ToolLLM) | Real-world API selection and tool-use execution | [📄 Paper](https://proceedings.iclr.cc/paper_files/paper/2024/file/28e50ee5b72e90b50e7196fde8ea260e-Paper-Conference.pdf) · [💻 Code](https://github.com/OpenBMB/ToolBench) |
+| ToolComp | Multi-tool reasoning and process supervision | [📄 Paper](https://arxiv.org/abs/2501.01290) |
+| ToolHop | Multi-hop tool dependencies | [📄 Paper](https://doi.org/10.18653/v1/2025.acl-long.150) |
+| ToolSandbox | Stateful execution and conversational interaction | [📄 Paper](https://doi.org/10.18653/v1/2025.findings-naacl.65) · [💻 Code](https://github.com/apple-aiml-research/ToolSandbox) |
+| ToolSword | Safety across tool-learning stages | [📄 Paper](https://doi.org/10.18653/v1/2024.acl-long.119) |
+| TRAJECT-Bench | Trajectory-aware evaluation of agentic tool use | [📄 Paper](https://iclr.cc/virtual/2026/poster/10009304) |
+| TRIP-Bench | Long-horizon interaction in real-world scenarios | [📄 Paper](https://arxiv.org/abs/2602.01675) |
+| UltraHorizon | Ultra-long-horizon agent capabilities | [📄 Paper](https://openreview.net/forum?id=qRNtMWrTvo) |
+| VitaBench | Versatile interactive tasks across applications | [📄 Paper](https://proceedings.iclr.cc/paper_files/paper/2026/file/93fab021315170101c92e8330a56fbdb-Paper-Conference.pdf) |
+| WildToolBench | Tool use in real-world interaction settings | [📄 Paper](https://proceedings.iclr.cc/paper_files/paper/2026/file/4fb6b4482e4e24a33a3de5b01a011eb0-Paper-Conference.pdf) |
+| Windows Agent Arena | Desktop-agent execution in Windows | [📄 Paper](https://proceedings.mlr.press/v267/bonatti25a.html) |
+| τ-bench | Tool-agent-user interaction in real-world domains | [📄 Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/1b126cc38b8638e07bef37e7b2bb72bf-Paper-Conference.pdf) |
+| τ²-bench | Conversational interaction in a dual-control environment | [📄 Paper](https://openreview.net/forum?id=OC2z7iSQKa) · [💻 Code](https://github.com/sierra-research/tau2-bench) |
 
 Browse the [full benchmark catalog](#papers-benchmarks) for evaluation settings covering **topological complexity, temporal scale, dynamic environments, state persistence and self-correction**, and safety. Compare scores within their task, model, and resource settings.
 
