@@ -13,7 +13,7 @@ Add the paper to the appropriate subsection of the [README paper list](README.md
 For example:
 
 ```markdown
-- **[2024]** 📄 [An LLM Compiler for Parallel Function Calling](https://proceedings.mlr.press/v235/kim24y.html) · ICML · [💻 Code](https://github.com/SqueezeAILab/LLMCompiler)
+- **[2024]** 📄 [An LLM Compiler for Parallel Function Calling](https://proceedings.mlr.press/v235/kim24y.html) · ICML · [💻 GitHub](https://github.com/SqueezeAILab/LLMCompiler)
 ```
 
 List each work once under its main topic. Use the published version when available and label preprints clearly.
