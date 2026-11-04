@@ -1,0 +1,75 @@
+cff-version: 1.2.0
+message: If you use this collection, please cite the survey below.
+title: Awesome Multi-Tool LLM Agents
+type: dataset
+authors:
+- family-names: Xu
+  given-names: Haoyuan
+- family-names: Li
+  given-names: Chang
+- family-names: Ma
+  given-names: Xinyan
+- family-names: Ou
+  given-names: Xianhao
+- family-names: Zhang
+  given-names: Zihan
+- family-names: He
+  given-names: Tao
+- family-names: Liu
+  given-names: Xiangyu
+- family-names: Wang
+  given-names: Zixiang
+- family-names: Liang
+  given-names: Jiafeng
+- family-names: Chu
+  given-names: Zheng
+- family-names: Liu
+  given-names: Runxuan
+- family-names: Mu
+  given-names: Rongchuan
+- family-names: Tu
+  given-names: Dandan
+- family-names: Liu
+  given-names: Ming
+- family-names: Qin
+  given-names: Bing
+preferred-citation:
+  type: article
+  title: 'The evolution of tool use in LLM agents: from single-tool call to multi-tool orchestration'
+  authors:
+  - family-names: Xu
+    given-names: Haoyuan
+  - family-names: Li
+    given-names: Chang
+  - family-names: Ma
+    given-names: Xinyan
+  - family-names: Ou
+    given-names: Xianhao
+  - family-names: Zhang
+    given-names: Zihan
+  - family-names: He
+    given-names: Tao
+  - family-names: Liu
+    given-names: Xiangyu
+  - family-names: Wang
+    given-names: Zixiang
+  - family-names: Liang
+    given-names: Jiafeng
+  - family-names: Chu
+    given-names: Zheng
+  - family-names: Liu
+    given-names: Runxuan
+  - family-names: Mu
+    given-names: Rongchuan
+  - family-names: Tu
+    given-names: Dandan
+  - family-names: Liu
+    given-names: Ming
+  - family-names: Qin
+    given-names: Bing
+  journal: Artificial Intelligence Review
+  year: 2026
+  doi: 10.1007/s10462-026-11700-9
+  url: https://doi.org/10.1007/s10462-026-11700-9
+  month: 10
+url: https://github.com/HaoyuanXu/awesome-multi-tool-agents
