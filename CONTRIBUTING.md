@@ -4,22 +4,24 @@ Contributions of papers, benchmarks, datasets, and official implementations are 
 
 ## 🎯 Scope
 
-Resources should address tool-mediated LLM agents, with a clear connection to dependent tool calls, stateful interaction, execution feedback, planning, training, recovery, safety, efficiency, toolset adaptation, evaluation, or an application workflow. Foundational single-call work belongs in the foundations page when it helps explain the development of orchestration.
+Resources should address tool-mediated LLM agents, with a clear connection to dependent tool calls, stateful interaction, planning, training, recovery, safety, efficiency, toolset adaptation, evaluation, or an application workflow.
 
-## ➕ Add a Resource
+## ➕ Add a Paper
 
-Choose the relevant subsection in a [topic catalog](README.md#taxonomy). Add the full title, publication year, venue or preprint status, and a direct link to the paper. Include an official code or project link when available. Keep entries ordered by year, newest first, then alphabetically within a year.
+Add the paper to the appropriate subsection of the [README paper list](README.md#paper-list). Include its full title, publication year, venue or preprint status, a direct paper link, and an official code link when available. Keep entries ordered by year, newest first, then alphabetically within a year.
 
-Follow the existing table format. For example:
+For example:
 
 ```markdown
-| [An LLM Compiler for Parallel Function Calling](https://proceedings.mlr.press/v235/kim24y.html) · [Code](https://github.com/SqueezeAILab/LLMCompiler) | 2024 | ICML 2024 |
+- **[2024]** 📄 [An LLM Compiler for Parallel Function Calling](https://proceedings.mlr.press/v235/kim24y.html) · ICML · [💻 Code](https://github.com/SqueezeAILab/LLMCompiler)
 ```
 
-In the pull request or issue, add one sentence explaining the resource's connection to the chosen subsection. Cross-cutting work can be linked from another relevant page. Prefer one entry per underlying study within a page, using the published version when available and labeling preprints clearly.
+List each work once under its main topic. Use the published version when available and label preprints clearly. Include one sentence in the issue or pull request explaining the resource's relevance to the subsection.
 
-## ✏️ Corrections and New Work
+Update the collection total, topic count, and yearly count when adding a new work. The focused pages under `docs/` can also link to the paper in related topics.
 
-For a metadata correction, include a link to the canonical publication or author-maintained project. Keep the [published corpus CSV](data/survey-corpus.csv) as the original survey snapshot; update the reading catalogs to reflect subsequent publications and new work. The homepage's 240-work count refers to that snapshot.
+## ✏️ Corrections and Citation
 
-Homepage starting points are a small reading guide. Most additions belong in the topic catalogs.
+For a metadata correction, include a canonical publication or author-maintained project link. Keep the [published corpus CSV](data/survey-corpus.csv) as the survey's original 240-record snapshot; add new work to the README.
+
+The journal-provided citation file is available as [RIS](citation.ris). A [BibTeX version](citation.bib) is also provided.

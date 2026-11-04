@@ -8,7 +8,7 @@
 - **Retrieved for this collection:** 4 November 2026.
 - **Publication status in the snapshot:** 174 published works, 65 preprints, and one technical/web record.
 
-The file is preserved as downloaded. The topic pages provide a reading index over its records, including cross-cutting section assignments. Their benchmark groups follow the survey's evaluation dimensions. Counts across topic pages overlap.
+The file is preserved as downloaded. The README lists all of its records, while the topic pages also index cross-cutting section assignments. Their benchmark groups follow the survey's evaluation dimensions. Counts across topic pages overlap.
 
 | Fields | Meaning |
 | --- | --- |
@@ -19,7 +19,7 @@ The file is preserved as downloaded. The topic pages provide a reading index ove
 | `inclusion_rationale` | Relevance to the survey |
 | `review_cutoff`, `audit_date` | Dates associated with the published corpus |
 
-New resources can be added to the Markdown catalogs through [contributions](../CONTRIBUTING.md); this CSV remains the survey snapshot. Existing metadata reflects the source corpus and may precede later publication updates.
+New resources can be added to the [README paper list](../README.md#paper-list) through [contributions](../CONTRIBUTING.md); this CSV remains the survey snapshot. Existing metadata reflects the source corpus and may precede later publication updates.
 
 ## Source attribution
 

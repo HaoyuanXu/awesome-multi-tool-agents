@@ -1,11 +1,11 @@
 # 🧠 Inference-Time Planning and Execution
 
 [![Back to collection](https://img.shields.io/badge/←_Collection-Awesome_Multi--Tool_Agents-3b82f6?style=flat)](../README.md)
-![Indexed works](https://img.shields.io/badge/Indexed_works-42-3b82f6?style=flat)
+![Indexed works](https://img.shields.io/badge/Indexed_works-43-3b82f6?style=flat)
 
 How agents construct dependencies, coordinate long trajectories, maintain useful state, and revise decisions using execution feedback.
 
-**Survey correspondence:** Section 3. **Indexed works:** 42.
+**Survey correspondence:** Section 3. **Indexed works:** 43.
 
 The initial entries follow the [published survey corpus](../data/README.md), with a literature cutoff of **26 July 2026**. Years and publication status follow that snapshot. Cross-cutting works may appear on more than one topic page.
 
@@ -51,6 +51,7 @@ The initial entries follow the [published survey corpus](../data/README.md), wit
 | 📄 [MIRIX: Multi-Agent Memory System for LLM-Based Agents](https://arxiv.org/abs/2507.07957) | 2025 | Preprint (arXiv) |
 | 📄 [SEDM: Scalable Self-Evolving Distributed Memory for Agents](https://arxiv.org/abs/2509.09498) | 2025 | Preprint (arXiv) |
 | 📄 [Tool-to-Agent Retrieval: Bridging Tools and Agents for Scalable LLM Multi-Agent Systems](https://arxiv.org/abs/2511.01854) | 2025 | Preprint (arXiv) |
+| 📄 [Towards a Science of Scaling Agent Systems](https://arxiv.org/abs/2512.08296) | 2025 | Preprint (arXiv) |
 | 📄 [Small LLMs Are Weak Tool Learners: A Multi-LLM Agent](https://doi.org/10.18653/v1/2024.emnlp-main.929) | 2024 | Proceedings of the 2024 conference on empirical methods in natural language processing |
 | 📄 [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face](https://doi.org/10.52202/075280-1657) | 2023 | Advances in Neural Information Processing Systems 36 (NeurIPS 2023) |
 
