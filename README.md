@@ -5,14 +5,14 @@
 <p align="center">
   <a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a>
   <a href="https://doi.org/10.1007/s10462-026-11700-9"><img alt="Survey: AIR 2026" src="https://img.shields.io/badge/Survey-AIR%202026-d90429?style=flat&logo=readthedocs&logoColor=white" /></a>
-  <a href="https://doi.org/10.1007/s10462-026-11700-9"><img alt="DOI: 10.1007/s10462-026-11700-9" src="https://img.shields.io/badge/DOI-10.1007%2Fs10462-026-11700-9-2456a6?style=flat&logo=doi&logoColor=white" /></a>
+  <a href="https://doi.org/10.1007/s10462-026-11700-9"><img alt="DOI: 10.1007/s10462-026-11700-9" src="https://img.shields.io/badge/DOI-10.1007%2Fs10462--026--11700--9-2456a6?style=flat&logo=doi&logoColor=white" /></a>
   <a href="https://doi.org/10.1007/s10462-026-11700-9"><img alt="Paper: Open Access" src="https://img.shields.io/badge/Paper-Open%20Access-087f8c?style=flat&logo=googlescholar&logoColor=white" /></a>
   <a href="https://github.com/HaoyuanXu/awesome-multi-tool-agents/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/HaoyuanXu/awesome-multi-tool-agents?style=flat&amp;logo=github&amp;color=f4b400" /></a>
   <a href="https://github.com/HaoyuanXu/awesome-multi-tool-agents/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/HaoyuanXu/awesome-multi-tool-agents?style=flat&amp;logo=github&amp;color=8b5cf6" /></a>
   <a href="https://github.com/HaoyuanXu/awesome-multi-tool-agents/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/HaoyuanXu/awesome-multi-tool-agents?style=flat&amp;color=2563eb" /></a>
   <a href="https://github.com/HaoyuanXu/awesome-multi-tool-agents/issues"><img alt="Open issues" src="https://img.shields.io/github/issues/HaoyuanXu/awesome-multi-tool-agents?style=flat&amp;color=0d9488" /></a>
   <a href="CONTRIBUTING.md"><img alt="PRs: Welcome" src="https://img.shields.io/badge/PRs-Welcome-16a34a?style=flat&logo=github&logoColor=white" /></a>
-  <a href="data/README.md"><img alt="Corpus cutoff: 2026-07-26" src="https://img.shields.io/badge/Corpus%20cutoff-2026-07-26-64748b?style=flat" /></a>
+  <a href="data/README.md"><img alt="Corpus cutoff: 2026-07-26" src="https://img.shields.io/badge/Corpus%20cutoff-2026--07--26-64748b?style=flat" /></a>
 </p>
 
 <p align="center">
