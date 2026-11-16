@@ -117,7 +117,7 @@ flowchart LR
 ## 📑 Paper List
 
 <p align="center">
-  <a href="#browse-the-papers"><img alt="Collection: 242 works" src="https://img.shields.io/badge/Collection-242%20works-1f6feb?style=for-the-badge" /></a>
+  <a href="#browse-the-papers"><img alt="Collection: 243 works" src="https://img.shields.io/badge/Collection-243%20works-1f6feb?style=for-the-badge" /></a>
   <a href="#taxonomy"><img alt="Research dimensions: 6" src="https://img.shields.io/badge/Research%20dimensions-6-8b5cf6?style=for-the-badge" /></a>
   <a href="#browse-the-papers"><img alt="Topic sections: 8" src="https://img.shields.io/badge/Topic%20sections-8-0d9488?style=for-the-badge" /></a>
 </p>
@@ -127,7 +127,7 @@ flowchart LR
 
 | Year | Works |
 | --- | ---: |
-| **2026** | 57 |
+| **2026** | 58 |
 | **2025** | 109 |
 | **2024** | 57 |
 | **2023** | 17 |
@@ -141,7 +141,7 @@ flowchart LR
 | Topic | Works |
 | --- | ---: |
 | 📖 [Foundations and Related Surveys](#papers-foundations) | 12 |
-| 🧠 [Inference-Time Planning and Execution](#papers-inference) | 43 |
+| 🧠 [Inference-Time Planning and Execution](#papers-inference) | 44 |
 | 🎓 [Training and Trajectory Construction](#papers-training) | 43 |
 | 🛡️ [Safety and Execution Control](#papers-safety) | 28 |
 | ⚡ [Efficiency under Resource Constraints](#papers-efficiency) | 23 |
@@ -202,6 +202,7 @@ flowchart LR
 #### 📂 Long-Horizon Orchestration
 
 - **[2026]** 📄 [ACON: Optimizing Context Compression for Long-horizon LLM Agents](https://www.microsoft.com/en-us/research/publication/acon-optimizing-context-compression-for-long-horizon-llm-agents/) ![ICML](https://img.shields.io/badge/ICML-2563eb?style=flat-square) · [💻 GitHub](https://github.com/microsoft/acon)
+- **[2026]** 📄 [Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](https://arxiv.org/abs/2606.24177) ![arXiv preprint](https://img.shields.io/badge/arXiv%20preprint-b31b1b?style=flat-square) · [💻 GitHub](https://github.com/AutoResearch-Factory/Agon)
 - **[2026]** 📄 [COMPASS: Enhancing Agent Long-Horizon Reasoning with Evolving Context](https://doi.org/10.18653/v1/2026.acl-long.152) ![ACL](https://img.shields.io/badge/ACL-2563eb?style=flat-square)
 - **[2026]** 📄 [DeepAgent: A General Reasoning Agent with Scalable Toolsets](https://doi.org/10.1145/3774904.3792460) ![The Web Conference](https://img.shields.io/badge/The%20Web%20Conference-2563eb?style=flat-square) · [💻 GitHub](https://github.com/RUC-NLPIR/DeepAgent)
 - **[2026]** 📄 [Learning Hierarchical Procedural Memory for LLM Agents through Bayesian Selection and Contrastive Refinement](https://doi.org/10.65109/FKYO8341) ![AAMAS](https://img.shields.io/badge/AAMAS-64748b?style=flat-square) · [💻 GitHub](https://github.com/S-Forouzandeh/MACLA-LLM-Agents-AAMAS-2026-Conference)
