@@ -117,7 +117,7 @@ flowchart LR
 ## 📑 Paper List
 
 <p align="center">
-  <a href="#browse-the-papers"><img alt="Collection: 243 works" src="https://img.shields.io/badge/Collection-243%20works-1f6feb?style=for-the-badge" /></a>
+  <a href="#browse-the-papers"><img alt="Collection: 245 works" src="https://img.shields.io/badge/Collection-245%20works-1f6feb?style=for-the-badge" /></a>
   <a href="#taxonomy"><img alt="Research dimensions: 6" src="https://img.shields.io/badge/Research%20dimensions-6-8b5cf6?style=for-the-badge" /></a>
   <a href="#browse-the-papers"><img alt="Topic sections: 8" src="https://img.shields.io/badge/Topic%20sections-8-0d9488?style=for-the-badge" /></a>
 </p>
@@ -127,7 +127,7 @@ flowchart LR
 
 | Year | Works |
 | --- | ---: |
-| **2026** | 58 |
+| **2026** | 60 |
 | **2025** | 109 |
 | **2024** | 57 |
 | **2023** | 17 |
@@ -141,9 +141,9 @@ flowchart LR
 | Topic | Works |
 | --- | ---: |
 | 📖 [Foundations and Related Surveys](#papers-foundations) | 12 |
-| 🧠 [Inference-Time Planning and Execution](#papers-inference) | 44 |
+| 🧠 [Inference-Time Planning and Execution](#papers-inference) | 45 |
 | 🎓 [Training and Trajectory Construction](#papers-training) | 43 |
-| 🛡️ [Safety and Execution Control](#papers-safety) | 28 |
+| 🛡️ [Safety and Execution Control](#papers-safety) | 29 |
 | ⚡ [Efficiency under Resource Constraints](#papers-efficiency) | 23 |
 | 🌍 [Capability Completeness](#papers-capability-completeness) | 13 |
 | 🧪 [Benchmarks and Evaluation](#papers-benchmarks) | 45 |
@@ -179,6 +179,7 @@ flowchart LR
 #### 📂 Topological Planning
 
 - **[2026]** 📄 [ARTIS: Agentic Risk-Aware Test-Time Scaling via Iterative Simulation](https://arxiv.org/abs/2602.01709) ![arXiv preprint](https://img.shields.io/badge/arXiv%20preprint-b31b1b?style=flat-square)
+- **[2026]** 📄 [AutoSR: Automatic Symbolic Regression by Searching Research States](https://arxiv.org/abs/2608.16876) ![arXiv preprint](https://img.shields.io/badge/arXiv%20preprint-b31b1b?style=flat-square) · [💻 GitHub](https://github.com/AutoResearch-Factory/AutoSR)
 - **[2026]** 📄 [AutoTool: Efficient tool selection for large language model agents](https://doi.org/10.1609/aaai.v40i37.40389) ![AAAI](https://img.shields.io/badge/AAAI-2563eb?style=flat-square) · [💻 GitHub](https://github.com/jingyio/AutoTool)
 - **[2026]** 📄 [STRUCTUREDAGENT: Planning with AND/OR Trees for Long-Horizon Web Tasks](https://arxiv.org/abs/2603.05294) ![arXiv preprint](https://img.shields.io/badge/arXiv%20preprint-b31b1b?style=flat-square)
 - **[2025]** 📄 [AFlow: Automating Agentic Workflow Generation](https://proceedings.iclr.cc/paper_files/paper/2025/file/5492ecbce4439401798dcd2c90be94cd-Paper-Conference.pdf) ![ICLR](https://img.shields.io/badge/ICLR-2563eb?style=flat-square) · [💻 GitHub](https://github.com/FoundationAgents/AFlow)
@@ -344,6 +345,7 @@ flowchart LR
 <a id="papers-safety-risks-in-parallel-execution--post-execution-verification"></a>
 #### 📂 Risks in Parallel Execution / Post-execution Verification
 
+- **[2026]** 📄 [AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search](https://arxiv.org/abs/2608.11250) ![Agenthon at NeurIPS](https://img.shields.io/badge/Agenthon%20at%20NeurIPS-64748b?style=flat-square) · [💻 GitHub](https://github.com/AutoResearch-Factory/AgonAlpha)
 - **[2025]** 📄 [Divide-Verify-Refine: Can LLMs Self-align with Complex Instructions?](https://doi.org/10.18653/v1/2025.findings-acl.709) ![Findings of ACL](https://img.shields.io/badge/Findings%20of%20ACL-2563eb?style=flat-square) · [💻 GitHub](https://github.com/Zood123/DVR_ACL25)
 - **[2025]** 📄 [VerifiAgent: a Unified Verification Agent in Language Model Reasoning](https://doi.org/10.18653/v1/2025.findings-emnlp.891) ![Findings of EMNLP](https://img.shields.io/badge/Findings%20of%20EMNLP-2563eb?style=flat-square) · [💻 GitHub](https://github.com/Jiuzhouh/VerifiAgent)
 - **[2024]** 📄 [CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://openreview.net/forum?id=Sx038qxjek) ![ICLR](https://img.shields.io/badge/ICLR-2563eb?style=flat-square) · [💻 GitHub](https://github.com/microsoft/ProphetNet/tree/master/CRITIC)
