@@ -117,7 +117,7 @@ flowchart LR
 ## 📑 Paper List
 
 <p align="center">
-  <a href="#browse-the-papers"><img alt="Collection: 245 works" src="https://img.shields.io/badge/Collection-245%20works-1f6feb?style=for-the-badge" /></a>
+  <a href="#browse-the-papers"><img alt="Collection: 246 works" src="https://img.shields.io/badge/Collection-246%20works-1f6feb?style=for-the-badge" /></a>
   <a href="#taxonomy"><img alt="Research dimensions: 6" src="https://img.shields.io/badge/Research%20dimensions-6-8b5cf6?style=for-the-badge" /></a>
   <a href="#browse-the-papers"><img alt="Topic sections: 8" src="https://img.shields.io/badge/Topic%20sections-8-0d9488?style=for-the-badge" /></a>
 </p>
@@ -127,7 +127,7 @@ flowchart LR
 
 | Year | Works |
 | --- | ---: |
-| **2026** | 60 |
+| **2026** | 61 |
 | **2025** | 109 |
 | **2024** | 57 |
 | **2023** | 17 |
@@ -142,7 +142,7 @@ flowchart LR
 | --- | ---: |
 | 📖 [Foundations and Related Surveys](#papers-foundations) | 12 |
 | 🧠 [Inference-Time Planning and Execution](#papers-inference) | 45 |
-| 🎓 [Training and Trajectory Construction](#papers-training) | 43 |
+| 🎓 [Training and Trajectory Construction](#papers-training) | 44 |
 | 🛡️ [Safety and Execution Control](#papers-safety) | 29 |
 | ⚡ [Efficiency under Resource Constraints](#papers-efficiency) | 23 |
 | 🌍 [Capability Completeness](#papers-capability-completeness) | 13 |
@@ -241,6 +241,7 @@ flowchart LR
 - **[2026]** 📄 [Agent-R1: A Unified and Modular Framework for Agentic Reinforcement Learning](https://arxiv.org/abs/2511.14460) ![arXiv preprint](https://img.shields.io/badge/arXiv%20preprint-b31b1b?style=flat-square) · [💻 GitHub](https://github.com/AgentR1/Agent-R1)
 - **[2026]** 📄 [Agentic Reinforced Policy Optimization](https://iclr.cc/virtual/2026/poster/10009306) ![ICLR](https://img.shields.io/badge/ICLR-2563eb?style=flat-square) · [💻 GitHub](https://github.com/RUC-NLPIR/ARPO)
 - **[2026]** 📄 [Empowering Multi-Turn Tool-Integrated Agentic Reasoning with Group Turn Policy Optimization](https://doi.org/10.18653/v1/2026.acl-long.1962) ![ACL](https://img.shields.io/badge/ACL-2563eb?style=flat-square)
+- **[2026]** 📄 [MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation](https://arxiv.org/abs/2610.23234) ![arXiv preprint](https://img.shields.io/badge/arXiv%20preprint-b31b1b?style=flat-square)
 - **[2026]** 📄 [Progra: Progress-Aware Reinforcement Learning for Multi-Turn Function Calling](https://doi.org/10.18653/v1/2026.findings-acl.325) ![Findings of ACL](https://img.shields.io/badge/Findings%20of%20ACL-2563eb?style=flat-square) · [💻 GitHub](https://github.com/FatCatCHC/Progra)
 - **[2026]** 📄 [Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction](https://arxiv.org/abs/2601.12762) ![arXiv preprint](https://img.shields.io/badge/arXiv%20preprint-b31b1b?style=flat-square) · [💻 GitHub](https://github.com/NEUIR/ToolMaster)
 - **[2026]** 📄 [Tool-Star: Empowering Multi-Tool Collaborative Web Agent via Reinforcement Learning](https://doi.org/10.1145/3805712.3809712) ![SIGIR](https://img.shields.io/badge/SIGIR-64748b?style=flat-square) · [💻 GitHub](https://github.com/RUC-NLPIR/Tool-Star)
