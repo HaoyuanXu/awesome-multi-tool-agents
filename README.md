@@ -44,9 +44,6 @@
   <sup>3</sup> Huawei Technologies Co., Ltd., Shenzhen, China
 </p>
 
-<p align="center">
-  <sup>*</sup> Equal contribution &nbsp;·&nbsp; <sup>†</sup> Corresponding author: Ming Liu
-</p>
 
 <p align="center">
   <a href="https://doi.org/10.1007/s10462-026-11700-9"><img alt="Published in: Artificial Intelligence Review" src="https://img.shields.io/badge/Published%20in-Artificial%20Intelligence%20Review-d90429?style=for-the-badge" /></a>
