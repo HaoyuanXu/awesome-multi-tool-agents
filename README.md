@@ -114,7 +114,7 @@ flowchart LR
 ## 📑 Paper List
 
 <p align="center">
-  <a href="#browse-the-papers"><img alt="Collection: 246 works" src="https://img.shields.io/badge/Collection-246%20works-1f6feb?style=for-the-badge" /></a>
+  <a href="#browse-the-papers"><img alt="Collection: 247 works" src="https://img.shields.io/badge/Collection-247%20works-1f6feb?style=for-the-badge" /></a>
   <a href="#taxonomy"><img alt="Research dimensions: 6" src="https://img.shields.io/badge/Research%20dimensions-6-8b5cf6?style=for-the-badge" /></a>
   <a href="#browse-the-papers"><img alt="Topic sections: 8" src="https://img.shields.io/badge/Topic%20sections-8-0d9488?style=for-the-badge" /></a>
 </p>
@@ -125,7 +125,7 @@ flowchart LR
 | Year | Works |
 | --- | ---: |
 | **2026** | 61 |
-| **2025** | 109 |
+| **2025** | 110 |
 | **2024** | 57 |
 | **2023** | 17 |
 | **2022** | 2 |
@@ -138,7 +138,7 @@ flowchart LR
 | Topic | Works |
 | --- | ---: |
 | 📖 [Foundations and Related Surveys](#papers-foundations) | 12 |
-| 🧠 [Inference-Time Planning and Execution](#papers-inference) | 45 |
+| 🧠 [Inference-Time Planning and Execution](#papers-inference) | 46 |
 | 🎓 [Training and Trajectory Construction](#papers-training) | 44 |
 | 🛡️ [Safety and Execution Control](#papers-safety) | 29 |
 | ⚡ [Efficiency under Resource Constraints](#papers-efficiency) | 23 |
@@ -185,6 +185,7 @@ flowchart LR
 - **[2025]** 📄 [GAP: Graph-Based Agent Planning with Parallel Tool Use and Reinforcement Learning](https://arxiv.org/abs/2510.25320) ![arXiv preprint](https://img.shields.io/badge/arXiv%20preprint-b31b1b?style=flat-square) · [💻 GitHub](https://github.com/WJQ7777/Graph-Agent-Planning)
 - **[2025]** 📄 [HiPlan: Hierarchical Planning for LLM-Based Agents with Adaptive Global-Local Guidance](https://arxiv.org/abs/2508.19076) ![arXiv preprint](https://img.shields.io/badge/arXiv%20preprint-b31b1b?style=flat-square) · [💻 GitHub](https://github.com/lzy99525/HiPlan)
 - **[2025]** 📄 [MPO: Boosting LLM Agents with Meta Plan Optimization](https://doi.org/10.18653/v1/2025.findings-emnlp.210) ![Findings of EMNLP](https://img.shields.io/badge/Findings%20of%20EMNLP-2563eb?style=flat-square) · [💻 GitHub](https://github.com/WeiminXiong/MPO)
+- **[2025]** 📄 [OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents](https://arxiv.org/abs/2504.16918) ![arXiv preprint](https://img.shields.io/badge/arXiv%20preprint-b31b1b?style=flat-square)
 - **[2025]** 📄 [Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks](https://proceedings.mlr.press/v267/erdogan25a.html) ![ICML](https://img.shields.io/badge/ICML-2563eb?style=flat-square) · [💻 GitHub](https://github.com/SqueezeAILab/plan-and-act)
 - **[2025]** 📄 [ReCAP: Recursive Context-Aware Reasoning and Planning for Large Language Model Agents](https://doi.org/10.52202/085713-3181) ![NeurIPS](https://img.shields.io/badge/NeurIPS-2563eb?style=flat-square) · [💻 GitHub](https://github.com/ReCAP-Stanford/ReCAP)
 - **[2025]** 📄 [Smurfs: Multi-Agent System using Context-Efficient DFSDT for Tool Planning](https://doi.org/10.18653/v1/2025.naacl-long.169) ![NAACL](https://img.shields.io/badge/NAACL-2563eb?style=flat-square) · [💻 GitHub](https://github.com/FreedomIntelligence/Smurfs)
